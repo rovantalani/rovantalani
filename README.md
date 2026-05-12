@@ -32,6 +32,8 @@ Always experimenting with new projects and picking up new skills along the way.
 
 🇫🇷 **[bonjourmadame](https://github.com/rovantalani/bonjourmadame)** — French vocabulary learning app in progress (React + TypeScript + Node.js)
 
+🧪 *I also have a bunch of experiments and fun repos below — scroll to see!*
+
 ---
 
 ### Find me
