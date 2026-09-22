@@ -1,42 +1,19 @@
-## Hi, I'm Råvan 👋
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+  <img alt="Råvan Talani — Founding Engineer · Marseille. Founding Engineer at Maesn, building a Unified API connecting 25+ accounting and ERP systems. M.Sc. in Sociotechnical Systems Engineering from Uppsala University. My background spans full-stack development and machine learning. These days, I&#x27;m exploring AI and agentic engineering — and always happy to swap ideas about what we&#x27;re building. Stack: Languages: TypeScript · Python; Full Stack: React · Next.js · Node.js · MongoDB · PostgreSQL; AI &amp; ML: MCP · LangChain · TensorFlow · PyTorch; Cloud &amp; DevOps: Azure · AWS · Docker. Scroll down for projects and experiments, or visit my website for a deeper look into my life." src="assets/profile-light.svg" width="900">
+</picture>
 
-**Founding Engineer** · Building APIs and integrations from scratch
-
-📍 Marseille, France &nbsp;|&nbsp; 🇸🇪 Swedish · 🇬🇧 English · 🇰🇷 Kurdish · 🇫🇷 French
-
----
-
-M.Sc. engineer from Uppsala University. I'm currently a Founding Engineer at **Maesn**, where I built a Unified API supporting 20+ accounting and ERP systems from the ground up.
-
-Always experimenting with new projects and picking up new skills along the way.
-
----
-
-### Stack
-
-| | |
-|---|---|
-| **Languages** | TypeScript · Python · JavaScript · Java |
-| **AI & ML** | PyTorch · TensorFlow · Scikit-learn · MCP |
-| **Backend** | Node.js · REST · SOAP · GraphQL · Prisma · MongoDB |
-| **Frontend** | React · Next.js · Vue.js |
-| **Infra** | Microsoft Azure · AWS · Docker · Git |
-
----
-
-### Things I've built
-
-🔗 **Unified API for accounting & ERP** — 20+ integrations built solo at Maesn.
-
-📊 **Probabilistic ML model for football stoppage time** — convolution of negative binomial distributions. Shipped to production at Kambi Group as part of my M.Sc. thesis.
-
-🇫🇷 **[bonjourmadame](https://github.com/rovantalani/bonjourmadame)** — French vocabulary learning app in progress (React + TypeScript + Node.js)
-
-🧪 *I also have a bunch of experiments and fun repos below — scroll to see!*
-
----
-
-### Find me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rovantalani-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rovantalani)
-[![Email](https://img.shields.io/badge/Email-rovantalani@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rovantalani@gmail.com)
+<a href="https://rovantalani.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/website-dark.svg">
+    <img alt="Visit rovantalani.com" src="assets/website-light.svg" width="230">
+  </picture>
+</a>
+<a href="https://linkedin.com/in/rovantalani">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/linkedin-dark.svg">
+    <img alt="Råvan Talani on LinkedIn" src="assets/linkedin-light.svg" width="130">
+  </picture>
+</a>
