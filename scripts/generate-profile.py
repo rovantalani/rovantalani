@@ -70,7 +70,7 @@ def render(sans, bold, mono, dark=False, mobile=False):
         ("#271B21", "#F9EDF2", "#F387B0", "#4A3542", "#C09FAD") if dark else
         ("#FDF6F8", "#33202A", "#CE4379", "#F3DEE5", "#82626E")
     )
-    w, pad, size, leading = (440, 28, 19, 30) if mobile else (900, 40, 23, 36)
+    w, pad, size, leading = (440, 28, 14, 22) if mobile else (900, 40, 15, 24)
     available = w - 2 * pad
     elements = []
 
@@ -82,13 +82,13 @@ def render(sans, bold, mono, dark=False, mobile=False):
 
     elements.append(f'<path d="M{pad} 35h32" stroke="{accent}" stroke-width="3" stroke-linecap="round"/>')
     text(bold, "Råvan Talani", pad - 2, 94, 42 if mobile else 56, fg, -1.4)
-    text(mono, "FOUNDING ENGINEER · MARSEILLE", pad, 126, 11 if mobile else 13, muted, 0.5 if mobile else 1.4)
+    text(mono, "FOUNDING ENGINEER · MARSEILLE", pad, 126, 9 if mobile else 10, muted, 0.5 if mobile else 1.4)
     if not mobile:
         elements.append(f'<rect x="{w-pad-70}" y="49" width="70" height="70" rx="18" fill="none" stroke="{border}"/>')
         text(bold, "RT", w-pad-55, 95, 28, accent, -1)
     line(160)
     y = 204
-    text(mono, "01 / ABOUT", pad, y, 12, accent, 1.4)
+    text(mono, "01 / ABOUT", pad, y, 10, accent, 1.4)
     y += 43
     for paragraph in BIO:
         for value in wrap(sans, paragraph, size, available):
@@ -97,10 +97,10 @@ def render(sans, bold, mono, dark=False, mobile=False):
         y += 18
     line(y + 1)
     y += 46
-    text(mono, "02 / STACK", pad, y, 12, accent, 1.4)
+    text(mono, "02 / STACK", pad, y, 10, accent, 1.4)
     y += 45
     for index, (label, tools) in enumerate(STACK):
-        text(mono, label.upper(), pad, y, 12 if mobile else 13, accent, 0.7)
+        text(mono, label.upper(), pad, y, 10, accent, 0.7)
         y += 30
         for value in wrap(sans, tools, size, available):
             text(sans, value, pad, y, size, fg)
@@ -133,7 +133,7 @@ def render_button(mono, label, w, dark=False):
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{height}" viewBox="0 0 {w} {height}" role="img" aria-labelledby="title">',
         f'<title id="title">Visit {escape(label)}</title>',
         f'<rect x="0.5" y="0.5" width="{w-1}" height="{height-1}" rx="12" fill="{bg}" stroke="{border}"/>',
-        outline(mono, label, (w - width(mono, label, 16)) / 2, 30, 16, accent),
+        outline(mono, label, (w - width(mono, label, 12)) / 2, 28, 12, accent),
         '</svg>\n',
     ])
 
