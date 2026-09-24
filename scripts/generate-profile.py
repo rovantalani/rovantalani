@@ -177,5 +177,5 @@ if __name__ == "__main__":
         for key, label, button_width in [("website", "rovantalani.com", 230), ("linkedin", "LinkedIn", 130)]:
             (assets / f'{key}-{"dark" if dark else "light"}.svg').write_text(render_button(mono, label, button_width, dark))
         for mobile in (False, True):
-            name = f'profile-{"dark" if dark else "light"}{"-mobile" if mobile else ""}.svg'
+            name = f'profile-skills-{"dark" if dark else "light"}{"-mobile" if mobile else ""}.svg'
             (assets / name).write_text(render(sans, bold, mono, dark, mobile))
